@@ -1,0 +1,28 @@
+{
+  "name": "qiniu-js-upload",
+  "version": "1.0.0",
+  "description": "七牛云存储前端js上传",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuyuhaoliar/qiniu-js-upload.git"
+  },
+  "keywords": [
+    "qiniu",
+    "upload",
+    "qiniu-upload",
+    "js-upload"
+  ],
+  "author": "zhuyuhao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhuyuhaoliar/qiniu-js-upload/issues"
+  },
+  "homepage": "https://github.com/zhuyuhaoliar/qiniu-js-upload#readme",
+  "devDependencies": {
+    "qiniu-js": "^2.5.4"
+  }
+}
