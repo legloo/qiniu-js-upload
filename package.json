@@ -4,7 +4,8 @@
   "description": "七牛云存储前端js上传",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/zhuyuhaoliar/qiniu-js-upload#readme",
   "devDependencies": {
+    "@types/node": "^12.6.6",
     "qiniu-js": "^2.5.4"
   }
 }

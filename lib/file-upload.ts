@@ -1,5 +1,8 @@
+// node
+const qiniu = require('qiniu-js')
+// es-module
+// import * as qiniu from "qiniu-js";
 
-import * as qiniu from "qiniu-js";
 
 /**
  * 
@@ -30,6 +33,7 @@ export function qiniu_upload(file: File, token: String, qiniuDomain?: String) {
         complete(res: any) {
             console.log(res);
             // that.obj = res
+            // url = qiniuDomain+key //www.test.com/131248917249.png
         }
     };
     let observable = qiniu.upload(file, key, token, putExtra, config);//准备
